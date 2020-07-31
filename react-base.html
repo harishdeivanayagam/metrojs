@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todos App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script>
+</head>
+<body>
+    <div style="display: none">
+        <div id="page-name" >{{ page }}</div>
+        <div id="page-params" >{{ resp }}</div>
+    </div>
+    <div id="react-root">
+        <!-- Your react page mount's here -->
+    </div>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+    <script src="{% static 'react_loader.js' %}"></script>
+</body>
+</html>
