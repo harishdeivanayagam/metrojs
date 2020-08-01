@@ -123,10 +123,9 @@ Todo Example
 
 Metro Station is a nice binding between React and Turbolinks.
 
-    ```html
-    <MetroStation to="/todos/">Go To Todos</MetroStation>
-    ```
-
+```javascript
+<MetroStation to="/todos/">Go To Todos</MetroStation>
+```
 
 ## External Dependencies
 
