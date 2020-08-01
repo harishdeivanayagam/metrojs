@@ -51,7 +51,7 @@ const path = require('path');
 
 ## .babelrc
 
-    ```json
+    ```javascript
     {  
       "presets": [  
         "@babel/preset-env",  
@@ -125,7 +125,7 @@ Todo Example
 
 Metro Station is a nice binding between React and Turbolinks.
 
-    ```javascript
+    ```html
     <MetroStation to="/todos/">Go To Todos</MetroStation>
     ```
 
