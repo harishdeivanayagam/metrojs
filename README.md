@@ -51,16 +51,14 @@ const path = require('path');
 
 ## .babelrc
 
-    ```javascript
+```javascript
     {  
       "presets": [  
         "@babel/preset-env",  
 	    "@babel/preset-react"  
       ]  
     }
-
-    
-    ```
+```
 ## react_loader.js
 
    ```javascript
