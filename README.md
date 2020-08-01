@@ -25,8 +25,8 @@ Metro.js supports react 16.
  3. Setup webpack and webpack-cli
  4. Add metro_adapter.py to your root django-app.
 ## webpack.config.js
-
-    const path = require('path');  
+```javascript
+const path = require('path');  
       
     module.exports = {  
         entry: {  
@@ -47,19 +47,22 @@ Metro.js supports react 16.
             }]  
         }  
     }
+```
 
 ## .babelrc
 
+```javascript
     {  
       "presets": [  
         "@babel/preset-env",  
 	    "@babel/preset-react"  
       ]  
     }
-
+```
 ## react_loader.js
 
-    import React from "react"  
+   ```javascript
+   import React from "react"  
     import ReactDOM from "react-dom"  
     import {NotFound} from "./pages/notfound";  
     import {Home} from "./pages/home";
@@ -92,6 +95,7 @@ Metro.js supports react 16.
     }
    
     bootstrap();
+   ```
 ## Metro Components
 ### Metro Forms
 Todo Example
@@ -101,8 +105,8 @@ Todo Example
  - data (form data)
  - action - URL of 
  - afterSubmit - receives **2 arguments** -> res (response), err (error). Response is null when error and vice-versa
--
 
+    ```javascript
     <MetroForm 
         method="POST" 
         action="/todos/" 
@@ -114,12 +118,14 @@ Todo Example
 		<button value="submit">Create</button>  
     </MetroForm>
 
+    ```
 ### Metro Station
 
 Metro Station is a nice binding between React and Turbolinks.
 
-    <MetroStation to="/todos/">Go To Todos</MetroStation>
-
+```javascript
+<MetroStation to="/todos/">Go To Todos</MetroStation>
+```
 
 ## External Dependencies
 
