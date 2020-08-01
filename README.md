@@ -51,7 +51,7 @@ const path = require('path');
 
 ## .babelrc
 
-    ```
+    ```json
     {  
       "presets": [  
         "@babel/preset-env",  
@@ -63,7 +63,7 @@ const path = require('path');
     ```
 ## react_loader.js
 
-   ```
+   ```javascript
    import React from "react"  
     import ReactDOM from "react-dom"  
     import {NotFound} from "./pages/notfound";  
@@ -107,9 +107,8 @@ Todo Example
  - data (form data)
  - action - URL of 
  - afterSubmit - receives **2 arguments** -> res (response), err (error). Response is null when error and vice-versa
--
 
-    ```
+    ```javascript
     <MetroForm 
         method="POST" 
         action="/todos/" 
@@ -126,7 +125,7 @@ Todo Example
 
 Metro Station is a nice binding between React and Turbolinks.
 
-    ```
+    ```javascript
     <MetroStation to="/todos/">Go To Todos</MetroStation>
     ```
 
