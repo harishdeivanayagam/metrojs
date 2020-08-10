@@ -133,7 +133,7 @@ Metro Station handle routes between your react pages.
  - [ ] ~~Turbolinks 5.2~~
  - [ ] Axios 0.19
 
-## Changes 1.0
+## Changes 0.0.2
 
  - Removed external dependency on Turbolinks.
 
