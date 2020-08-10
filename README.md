@@ -121,7 +121,7 @@ Todo Example
     ```
 ### Metro Station
 
-Metro Station is a nice binding between React and Turbolinks.
+Metro Station handle routes between your react pages.
 
 ```javascript
 <MetroStation to="/todos/">Go To Todos</MetroStation>
@@ -130,8 +130,12 @@ Metro Station is a nice binding between React and Turbolinks.
 ## External Dependencies
 
  - [ ] React 16+
- - [ ] Turbolinks 5.2
+ - [ ] ~~Turbolinks 5.2~~
  - [ ] Axios 0.19
+
+## Changes 1.0
+
+ - Removed external dependency on Turbolinks.
 
 ## Notes
 This is a initial version of the library. Use at your own risk in production.
